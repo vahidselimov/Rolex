@@ -1,0 +1,125 @@
+body{
+    background-color: #499167;
+}
+.item{
+    margin-top: 250px;
+    h4{
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+}
+.row{
+    
+    margin-top: 50px;
+    margin-left: 70px;
+ .card{
+     min-width: 200px;
+     max-width: 400px;
+     min-height: 200px;
+     max-height: 600px;
+     margin-left: 25px;
+     .price{
+         font-size: 20px;
+         color: black;
+     }
+     .price:hover{
+font-size: 23px;
+color: #5c8001;
+     }
+    
+ }
+ .cards-title{
+     font-size: 19px;
+     font-weight: bold;
+     padding: 0;
+     color: black;
+     margin-left: 15px;
+ }
+ .cards-title:hover{
+     font-size: 17px;
+     color: rgb(239, 205, 8);
+     padding: 10px;
+ }
+ p{
+     color: black;
+ }
+ p:hover{
+     color: rgb(38, 119, 38);
+ }
+ img{
+     width: 10px;
+     height: 300px;
+     padding: 0px;
+     
+ }
+ img:hover{
+     padding: 15px;
+ }
+ .img9{
+     width: 3px;
+     height: 300px;
+ }
+ .material-icons{
+     color: rgb(255, 255, 255);
+     background-color: green;
+ }
+}
+.owl-nav{
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 46%;
+}
+.owl-nav:hover{
+    color: white;
+}
+nav{
+    // margin-top:  -23px;
+
+    
+    .nav-wrapper{
+       background-color: #5fdd9d;
+        height: 150px;
+
+        .iconimg{
+           width: 40px;
+         margin-left: 740px;
+       
+            
+        }
+       
+      .rolex{
+        // height: 200px;
+            // margin-left: 720px;
+            text-align: center;
+            margin-top: -50px;
+            
+         
+        
+        
+      }
+      .right{
+        li{
+           a{
+               font-size: 20px;
+               color: black;
+               margin-top: -20px;
+               font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           }
+        }
+    }
+    }
+    
+}
+.basket-icon{
+    
+       i{
+           font-size: 30px;
+          color: black;
+          margin-left: 50px;
+          margin-top: 30px;
+         
+       }
+
+    
+}

@@ -1,0 +1,117 @@
+body {
+  background-color: #499167;
+}
+
+.item {
+  margin-top: 250px;
+}
+
+.item h4 {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.row {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.row .card {
+  min-width: 200px;
+  max-width: 400px;
+  min-height: 200px;
+  max-height: 600px;
+  margin-left: 25px;
+}
+
+.row .card .price {
+  font-size: 20px;
+  color: black;
+}
+
+.row .card .price:hover {
+  font-size: 23px;
+  color: #5c8001;
+}
+
+.row .cards-title {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0;
+  color: black;
+  margin-left: 15px;
+}
+
+.row .cards-title:hover {
+  font-size: 17px;
+  color: #efcd08;
+  padding: 10px;
+}
+
+.row p {
+  color: black;
+}
+
+.row p:hover {
+  color: #267726;
+}
+
+.row img {
+  width: 10px;
+  height: 300px;
+  padding: 0px;
+}
+
+.row img:hover {
+  padding: 15px;
+}
+
+.row .img9 {
+  width: 3px;
+  height: 300px;
+}
+
+.row .material-icons {
+  color: white;
+  background-color: green;
+}
+
+.owl-nav {
+  font-size: 50px;
+  margin-top: 40px;
+  margin-left: 46%;
+}
+
+.owl-nav:hover {
+  color: white;
+}
+
+nav .nav-wrapper {
+  background-color: #5fdd9d;
+  height: 150px;
+}
+
+nav .nav-wrapper .iconimg {
+  width: 40px;
+  margin-left: 740px;
+}
+
+nav .nav-wrapper .rolex {
+  text-align: center;
+  margin-top: -50px;
+}
+
+nav .nav-wrapper .right li a {
+  font-size: 20px;
+  color: black;
+  margin-top: -20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.basket-icon i {
+  font-size: 30px;
+  color: black;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=index.css.map */
