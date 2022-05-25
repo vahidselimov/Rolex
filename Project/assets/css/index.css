@@ -114,4 +114,9 @@ nav .nav-wrapper .right li a {
   margin-left: 50px;
   margin-top: 30px;
 }
+
+.basket-icon sup {
+  font-size: 27px;
+  margin-left: 2px;
+}
 /*# sourceMappingURL=index.css.map */

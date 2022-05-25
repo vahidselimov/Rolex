@@ -30,10 +30,19 @@ allbtn.forEach(btn=>{
 exisPro.count++;
         }
         localStorage.setItem("basket",JSON.stringify(basket))
-
+        calcCount()
        
         console.log(basket);
     })
 }
 
-)
+);
+function calcCount() {
+    let basket = JSON.parse(localStorage.getItem("basket"));
+    let count = basket.reduce((t, val) => {
+      return (t += val.count);
+    }, 0);
+    let countValue = document.querySelector("sup");
+    countValue.innerText = count;
+  }
+  calcCount();
